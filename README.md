@@ -183,19 +183,6 @@ La aplicación está configurada para trabajar con el índice **biomed-manuals-d
 - ✅ Manejo de errores básico
 - ✅ Historial de conversación
 
-## 🚧 Mejoras Futuras
-
-Algunas mejoras que se podrían implementar:
-
-- **Carga de datos desde código**: Script para subir y procesar PDFs automáticamente al índice
-- **Soporte multiidioma**: Detección de idioma y respuestas en múltiples idiomas
-- **Filtros avanzados**: Filtrar por modelo, fabricante, tipo de manual desde la UI
-- **Autenticación de usuarios**: Sistema de login para control de acceso
-- **Logging y trazabilidad**: Registro de preguntas, respuestas y métricas de uso
-- **Búsqueda híbrida mejorada**: Integración completa de búsqueda vectorial + texto
-- **Streaming de respuestas**: Mostrar la respuesta mientras se genera (mejor UX)
-- **Exportación de conversaciones**: Guardar historiales de chat en PDF o texto
-
 ## 📝 Notas Técnicas
 
 - La aplicación usa **búsqueda por texto** por defecto. El código está preparado para usar búsqueda vectorial si proporcionas embeddings.
